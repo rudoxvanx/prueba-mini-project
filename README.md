@@ -36,10 +36,10 @@ Sigue estos pasos para configurar el proyecto en tu máquina:
 3. **Configurar el archivo .env**
 
 **linux**
-    cp .env.example .env
+ - cp .env.example .env
 
 **windows**
-    copy .env.example .env
+ - copy .env.example .env
 
 
 4. **Generar la clave de aplicacion**
@@ -71,3 +71,10 @@ php artisan serve
 
 
 Ahora puedes abrir el proyecto en tu navegador en http://127.0.0.1:8000/.
+
+
+Una vez que el proyecto fue ejecutado con exito procurar dar de alta registros en el siguiente orden:
+
+- Empleados
+- Equipos
+- Prestamos

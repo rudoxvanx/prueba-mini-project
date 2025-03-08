@@ -26,7 +26,7 @@ Sigue estos pasos para configurar el proyecto en tu máquina:
 
 1. **Clonar el repositorio**
    ```sh
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   https://github.com/rudoxvanx/prueba-mini-project.git
    cd tu-repositorio
 
 2. **Instalar las dependencias**
@@ -47,15 +47,17 @@ php artisan key:generate
 
 5. **Configurar la base de datos**
 
-    Crea una base de datos en MySQL.
-    Edita el archivo .env y configura los valores
+    - Crea una base de datos en MySQL.
+    - Edita el archivo .env y configura los valores
 
+    ```env
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
     DB_DATABASE=nombre_de_tu_base
     DB_USERNAME=usuario
     DB_PASSWORD=contraseña
+    ```
 
 6. **Ejecutar las migraciones**
 
